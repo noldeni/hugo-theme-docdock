@@ -726,3 +726,26 @@ ul.children.children-card {
     margin-right: -1rem; } }
 
 /*# sourceMappingURL=style.css.map */
+
+/* Definition Lists */
+/* From: https://gist.github.com/dmyates/8f0c8ed354a10ea32ffbcf2a363a77dd */
+/* Default browser CSS sucks, so this is all required. */
+dl {
+	width: 100%;
+	overflow: hidden;
+	padding: 0;
+	margin: 0
+}
+dt {
+	float: left;
+	width: 35%;
+	padding-right: 0.75em;
+	margin: 0.5em 0 0.5em 0;
+	font-weight: bold;
+}
+dd {
+	float: left;
+	width: 60%;
+	padding: 0;
+	margin: 0.5em 0 0.5em 0;
+}
